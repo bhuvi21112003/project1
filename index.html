@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="design.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BHUVANESH G</title>
+</head>
+
+<body>
+  <nav>
+    <logo class="kl">PORTFOLIO</logo>
+    <div class="menu-icon" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="pow">
+      <li><a href="bio.html">Bio</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="project.html">Projects</a></li>
+    </ul>
+    <section class="content">
+      <div class="bh">
+        <h1>Hi, I'm<br><span> BHUVANESH G<br></span>Front end Developer</h1>
+      </div>
+      <div class="home">
+        <img src="pic1.jpg" alt="">
+      </div>
+    </section>
+    <div class="bhuvi">
+      <p><i class="fas fa-envelope"></i> bhuvigopalkannan21@gmail.com</p>
+    </div>
+  </nav>
+
+  <script>
+    function toggleMenu() {
+      var navMenu = document.querySelector('.pow');
+      navMenu.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
